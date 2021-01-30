@@ -1,0 +1,11 @@
+---
+title: HOME
+layout: layouts/base
+permalink: /
+---
+
+<h1>{{ title }}</h1>
+
+{% for subpage in collections.subpages %}
+  {% include subpage.liquid %}
+{% endfor %}
