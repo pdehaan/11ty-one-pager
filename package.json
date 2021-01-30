@@ -1,18 +1,27 @@
 {
   "name": "11ty-one-pager",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-one-pager/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "prettier": "^2.2.1"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-one-pager#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-one-pager.git"
+  },
   "scripts": {
     "build": "eleventy",
     "postbuild": "prettier www --write",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
-  "license": "MPL-2.0",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "prettier": "^2.2.1"
   }
 }
